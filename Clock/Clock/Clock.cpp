@@ -2,7 +2,6 @@
 #include <unistd.h>
 #include <iostream>
 
-
 void Clock::run_clock(int s, int m, int h){
     std::cout << "\nStarted at " << h << ":" << m << ":" << s << "\n" << std::endl;
     while(true){
